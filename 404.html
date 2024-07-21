@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/404.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon_io/favicon.ico" type="image/x-png">
+   
+    <title>Got Lost! Page Not Found</title>
+</head>
+<body>
+
+<!-- navbar starts -->
+<div id="header"></div>
+<!-- navbar ends -->
+
+<!-- 404 section start -->
+<section class="page_404">
+        <div class="container">
+          <div class="wrapper">
+            <h1 class="text-center ">404</h1>
+          </div>
+          
+          <div class="msg">
+          <h3>Looks like you're lost</h3>
+          <p>The page you are looking for is not available!</p>
+           
+          <div class="backbtn">
+            <a href="/" class="btn">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back to Home</span>
+          </a>
+          </div>
+
+          </div>
+        </div>
+</section>
+<!-- 404 section end -->
+
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="/assets/js/404.js"></script>
+<script>
+  // Function to load HTML content into an element
+  function loadHTML(elementId, url) {
+    fetch(url)
+      .then(response => response.text())
+      .then(data => document.getElementById(elementId).innerHTML = data)
+      .catch(error => console.error('Error loading content:', error));
+  }
+
+  // Load header and footer
+  loadHTML('header', '/header.html');
+  loadHTML('footer', 'footer.html');
+</script>
+
+</body>
+</html>
