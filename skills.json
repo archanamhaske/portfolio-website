@@ -1,59 +1,59 @@
 [
     {
         "name": "ReactJS",
-        "icon": "/assets/images/skills/react.png"
+        "icon": "./assets/images/skills/react.png"
     },
     {
         "name": "ExpressJS",
-        "icon": "/assets/images/skills/node-js.png"
+        "icon": "./assets/images/skills/node-js.png"
     },
     {
         "name": "NodeJS",
-        "icon": "/assets/images/skills/nodejs.png"
+        "icon": "./assets/images/skills/nodejs.png"
     },
     {
         "name": "MaterialUI",
-        "icon": "/assets/images/skills/material-ui.png"
+        "icon": "./assets/images/skills/material-ui.png"
     },
     {
         "name": "TailwindCSS",
-        "icon": "/assets/images/skills/TailwindCSS.png"
+        "icon": "./assets/images/skills/TailwindCSS.png"
     },
     {
         "name": "Bootstrap",
-        "icon": "/assets/images/skills/bootstrap.png"
+        "icon": "./assets/images/skills/bootstrap.png"
     },
     {
         "name": "Sass",
-        "icon": "/assets/images/skills/sass.png"
+        "icon": "./assets/images/skills/sass.png"
     },
     {
         "name": "HTML5",
-        "icon": "/assets/images/skills/html-5--v1.png"
+        "icon": "./assets/images/skills/html-5--v1.png"
     },
     {
         "name": "CSS3",
-        "icon": "/assets/images/skills/css3.png"
+        "icon": "./assets/images/skills/css3.png"
     },
     {
         "name": "JavaScript",
-        "icon": "/assets/images/skills/javascript--v1.png"
+        "icon": "./assets/images/skills/javascript--v1.png"
     },
     {
         "name": "Java",
-        "icon": "/assets/images/skills/java-coffee-cup-logo--v1.png"
+        "icon": "./assets/images/skills/java-coffee-cup-logo--v1.png"
     },
     {
         "name": "PHP",
-        "icon": "/assets/images/skills/php-logo.png"
+        "icon": "./assets/images/skills/php-logo.png"
     },
     {
         "name": "MySQL",
-        "icon": "/assets/images/skills/mysql-logo.png"
+        "icon": "./assets/images/skills/mysql-logo.png"
     },
     {
         "name": "jQuery",
-        "icon": "/assets/images/skills/jquery.png"
+        "icon": "./assets/images/skills/jquery.png"
     },
    
     {
