@@ -30,7 +30,9 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
 }
-
+#header{
+  display: none;
+}
 /* pre loader start */
 .loader-container {
   position: fixed;
@@ -278,7 +280,7 @@ header .navbar ul li a:hover {
   list-style: none;
 }
 .socials .social-icons li {
-  display: inline-block;
+  display: inline;
   margin-bottom: 14px;
 }
 .social-icons a {
