@@ -58,10 +58,10 @@
    
     {
         "name": "GitHub",
-        "icon": "/assets/images/skills/github.png"
+        "icon": "./assets/images/skills/github.png"
     },
     {
         "name": "WordPress",
-        "icon": "/assets/images/skills/wordpress.png"
+        "icon": "./assets/images/skills/wordpress.png"
     }    
 ]
