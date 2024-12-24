@@ -11,7 +11,10 @@
         "name": "NodeJS",
         "icon": "./assets/images/skills/nodejs.png"
     },
-    
+    {
+        "name": "MaterialUI",
+        "icon": "./assets/images/skills/material-ui.png"
+    },
     {
         "name": "TailwindCSS",
         "icon": "./assets/images/skills/TailwindCSS.png"
